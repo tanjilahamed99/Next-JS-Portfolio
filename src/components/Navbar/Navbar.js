@@ -2,14 +2,16 @@ import Link from "next/link";
 
 const Navbar = () => {
     const ulLinks = <>
-        <li className="hover:text-[#55e6a5]"><Link href={'/'}>Home</Link></li>
-        <li className="hover:text-[#55e6a5]"><Link href={'/'}>About</Link></li>
-        <li className="hover:text-[#55e6a5]"><Link href={'/'}>Contact</Link></li>
-        <li className="hover:text-[#55e6a5]"><Link href={'/'}>Blog</Link></li>
-        <li className="hover:text-[#55e6a5]"><Link href={'/'}>Service</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Home</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>About</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Contact</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Blog</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Service</Link></li>
     </>
+
+
     return (
-        <div className="navbar">
+        <div className="navbar bg-[#2d2d2d] p-2 rounded-lg">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,7 +27,7 @@ const Navbar = () => {
                 <a className="btn btn-ghost text-2xl font-bold text-white ">Tanjil</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-white text-lg">
+                <ul className="menu menu-horizontal px-1 text-white">
                     {
                         ulLinks
                     }
