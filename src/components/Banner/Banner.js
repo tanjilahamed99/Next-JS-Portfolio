@@ -12,7 +12,7 @@ const Banner = () => {
                     <h2 className='text-[2.5em] font-bold '>Hi,I am Tanjil!</h2>
                     <TextAnimation></TextAnimation>
                 </div>
-                <p className='mb-8 text-lg'>
+                <p className='mb-8 text-lg text-[#a2a2a2]'>
                     I am skilled frontend developer, specializes in HTML, CSS, Tailwind, JavaScript, React, Next.js, Firebase, Node.js, MongoDB, Express, and JSON Web Token. Proficient in crafting visually appealing interfaces, he excels in full-stack development, demonstrating commitment and expertise in diverse technologies.
                 </p>
                 <Btn text={"Download CV"}></Btn>
