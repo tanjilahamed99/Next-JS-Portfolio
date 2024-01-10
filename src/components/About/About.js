@@ -11,7 +11,7 @@ const About = () => {
                     Transforming visions into <br />
                     exceptional portfolios
                 </h1>
-                <div className='space-y-3 my-5'>
+                <div className='space-y-3 my-5 text-[#a2a2a2]'>
                     <p>
                         Passionate Website Developer specializing in JavaScript, React, Node.js, Express, and Firebase. I thrive on turning ideas into interactive and user-friendly digital experiences.
                     </p>
@@ -23,7 +23,7 @@ const About = () => {
             </div>
             <div className='w-1/2'>
                 <div className='border-t-8 border-r-8 border-[#55e6a5] w-fit mx-auto'>
-                    <Image className=' mx-auto bg-[#2d2d2d]' src={"https://i.ibb.co/30mm9CK/portfolio.png"} alt='banner image ' width={400} height={400}></Image>
+                    <Image className=' mx-auto bg-[#09101a]' src={"https://i.ibb.co/30mm9CK/portfolio.png"} alt='banner image ' width={400} height={400}></Image>
                 </div>
             </div>
         </div>

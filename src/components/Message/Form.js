@@ -11,7 +11,7 @@ const Form = () => {
                 <input type="text" placeholder="" className=" p-6 w-full border border-[#55e6a5] bg-black" />
             </div>
             <div>
-                <textarea className=" p-6 w-full border border-[#55e6a5] bg-black" placeholder="Bio"></textarea>
+                <textarea className=" p-6 pb-14 w-full border border-[#55e6a5] bg-black" placeholder="Bio"></textarea>
             </div>
             <button className="btn border border-none bg-[#55e6a5] rounded-none py-5 px-10">
                 Submit
