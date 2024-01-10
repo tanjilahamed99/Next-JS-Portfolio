@@ -54,6 +54,48 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
+            <div className='grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-10 my-10 '>
+                <div className=''>
+                    <p className='mb-2 font-bold'>HTML</p>
+                    <input type="range" min={0} max="100" value="90" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>CSS</p>
+                    <input type="range" min={0} max="100" value="90" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>JAVASCRIPT</p>
+                    <input type="range" min={0} max="100" value="70" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>TAILWIND</p>
+                    <input type="range" min={0} max="100" value="100" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>REACT JS</p>
+                    <input type="range" min={0} max="100" value="90" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>NODE JS</p>
+                    <input type="range" min={0} max="100" value="50" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>EXPRESS JS</p>
+                    <input type="range" min={0} max="100" value="50" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>MONGODB</p>
+                    <input type="range" min={0} max="100" value="40" className="range range-success" />
+                </div>
+                <div className='bg-'>
+                    <p className='mb-2 font-bold'>NEXT JS</p>
+                    <input type="range" min={0} max="100" value="60" className="range range-success" />
+                </div>
+                <div>
+                    <p className='mb-2 font-bold'>DAISY UI</p>
+                    <input type="range" min={0} max="100" value="100" className="range range-success" />
+                </div>
+            </div>
         </div>
     );
 };
