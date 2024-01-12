@@ -1,5 +1,6 @@
 import About from "@/components/About/About";
 import Banner from "@/components/Banner/Banner";
+import Footer from "@/components/Footer/Footer";
 import MyService from "@/components/MYService/MyService";
 import MarqueeDesign from "@/components/MarqueeDesign/MarqueeDesign";
 import Message from "@/components/Message/Message";
@@ -23,6 +24,7 @@ export default function Home() {
       <Testimonial />
       <MarqueeDesign />
       <NewsLatter />
+      <Footer></Footer>
     </div>
   )
 }
