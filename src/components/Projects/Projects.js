@@ -7,14 +7,14 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 const Projects = () => {
     return (
         <div className='text-white'>
-            <h2 className='text-[#55e6a5] text-xl font-bold'>About Me</h2>
+            <h2 className='text-[#55e6a5] text-xl font-bold'>My Recent Projects</h2>
             <h1 className='text-3xl font-bold leading-10 mt-5'>
-                Elevate your brand to new <br />
-                heights with our portfolio expertise
+                Elevate My brand to new <br />
+                heights with My Projects expertise
             </h1>
             <div className='my-20 grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-5'>
                 <div className='relative'>
-                    <Image src={luxeNext} alt='Projects logo'></Image>
+                    <Image className='lg:h-[350px]' src={luxeNext} alt='Projects logo'></Image>
                     <div
                         data-aos="fade-right"
                         data-aos-duration="3000"
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='relative'>
-                    <Image src={nexTech} alt='Projects logo'></Image>
+                    <Image className='lg:h-[350px]' src={nexTech} alt='Projects logo'></Image>
                     <div
                         data-aos="fade-left"
                         data-aos-duration="3000"
