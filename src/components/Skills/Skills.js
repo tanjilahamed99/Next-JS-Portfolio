@@ -54,7 +54,10 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
-            <div className='grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-10 my-10 '>
+            <div
+                data-aos="fade-down"
+                data-aos-duration="2000"
+                className='grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-10 my-10 '>
                 <div className=''>
                     <p className='mb-2 font-bold'>HTML</p>
                     <input type="range" min={0} max="100" value="90" className="range range-success" />

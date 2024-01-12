@@ -1,6 +1,9 @@
 const Form = () => {
     return (
-        <form className="space-y-10">
+        <form
+            data-aos="fade-up"
+            data-aos-duration="2500"
+            className="space-y-10">
             <div>
                 <input type="text" placeholder="Your Name" className=" p-6 w-full border border-[#55e6a5] bg-black" />
             </div>

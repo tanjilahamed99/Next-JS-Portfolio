@@ -20,20 +20,20 @@ const Footer = () => {
                     <FaPhone className="bg-[#55e6a5] text-black text-6xl font-bold p-3 rounded-full"></FaPhone>
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Lets talk us</h2>
-                        <p className="text-[#a2a2a2] leading-8">
+                        <h2 className="text-[#a2a2a2] leading-8">
                             <h2 className="hover:text-[#55e6a5] ">+8801996643722</h2>
                             <h2 className="hover:text-[#55e6a5] ">+8801939425115</h2>
-                        </p>
+                        </h2>
                     </div>
                 </div>
                 <div className="flex gap-5">
                     <MdOutlineEmail className="bg-[#55e6a5] text-black text-6xl font-bold p-3 rounded-full"></MdOutlineEmail>
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Send us email</h2>
-                        <p className="text-[#a2a2a2] leading-8">
+                        <h2 className="text-[#a2a2a2] leading-8">
                             <h2 className="hover:text-[#55e6a5] "> tanjil.ahamed0199@gmail.com</h2>
                             <h2 className="hover:text-[#55e6a5] ">tanjil113355@gmail.com</h2>
-                        </p>
+                        </h2>
                     </div>
                 </div>
             </div>
