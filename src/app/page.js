@@ -4,6 +4,7 @@ import MyService from "@/components/MYService/MyService";
 import MarqueeDesign from "@/components/MarqueeDesign/MarqueeDesign";
 import Message from "@/components/Message/Message";
 import Navbar from "@/components/Navbar/Navbar";
+import NewsLatter from "@/components/NewsLatter/NewsLatter";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import Testimonial from "@/components/Testimonial/Testimonial";
@@ -19,8 +20,9 @@ export default function Home() {
       <Message />
       <Skills />
       <Projects />
-      <Testimonial></Testimonial>
-      <MarqueeDesign></MarqueeDesign>
+      <Testimonial />
+      <MarqueeDesign />
+      <NewsLatter />
     </div>
   )
 }
