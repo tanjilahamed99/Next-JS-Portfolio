@@ -5,6 +5,7 @@ import Message from "@/components/Message/Message";
 import Navbar from "@/components/Navbar/Navbar";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Message />
       <Skills />
       <Projects />
+      <Testimonial></Testimonial>
     </div>
   )
 }
