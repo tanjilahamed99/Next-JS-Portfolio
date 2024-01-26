@@ -5,9 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 const TextAnimation = () => {
     return (
         <TypeAnimation
-            className='text-5xl font-bold'
+            className='lg:text-5xl text-2xl font-bold'
             sequence={[
-                // Same substring at the start will only be typed once, initially
                 `CREATIVE Web Developer`,
                 1000,
                 'CREATIVE Frontend Developer',
@@ -17,8 +16,7 @@ const TextAnimation = () => {
                 'CREATIVE Full Stack Developer',
                 1000,
             ]}
-            speed={50}
-            style={{ fontSize: '2.5em' }}
+            speed={300}
             repeat={Infinity}
         />
     );

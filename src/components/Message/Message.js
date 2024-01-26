@@ -7,7 +7,7 @@ import Form from './Form';
 
 const Message = () => {
     return (
-        <div className='text-white flex items-center gap-5'>
+        <div id='contact' className='text-white flex items-center gap-5'>
             <div className='space-y-10 lg:w-1/2'>
                 <h2 className='text-6xl'>
                     Design <span className='text-5xl'>and <br /> Innovation</span>

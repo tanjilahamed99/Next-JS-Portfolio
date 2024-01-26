@@ -2,16 +2,15 @@ import { CgWebsite } from "react-icons/cg";
 
 const MyService = () => {
     return (
-        <div className="my-20">
+        <div id="service" className="my-20">
             <h2 className="text-xl font-bold text-[#55e6a5] text-center">My Service</h2>
-            <p className="text-3xl text-center mt-3 leading-10 font-bold text-white">
+            <p className="md:text-3xl text-xl text-center mt-3 md:leading-10 font-bold text-white">
                 Crafting stories through <br></br>
                 design and innovation
             </p>
             <div
                 data-aos="fade-right"
                 data-aos-duration="1500"
-
                 className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 my-10 gap-8 px-2 lg:px-0">
                 <div className="text-white text-center  p-4 shadow shadow-[#a2a2a2]">
                     <CgWebsite className="text-7xl text-[#55e6a5] mx-auto"></CgWebsite>

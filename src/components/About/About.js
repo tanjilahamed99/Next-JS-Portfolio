@@ -4,7 +4,7 @@ import Btn from '../Shared/Btn';
 
 const About = () => {
     return (
-        <div className='my-40 text-white flex items-center justify-center'>
+        <div id='about' className='my-40 text-white flex items-center justify-center'>
             <div className='w-1/2'>
                 <h2 className='text-[#55e6a5] text-xl font-bold'>About Me</h2>
                 <h1 className='text-3xl font-bold leading-10 mt-5'>

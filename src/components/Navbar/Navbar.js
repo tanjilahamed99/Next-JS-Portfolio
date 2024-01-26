@@ -2,11 +2,12 @@ import Link from "next/link";
 
 const Navbar = () => {
     const ulLinks = <>
-        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Home</Link></li>
-        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>About</Link></li>
-        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Contact</Link></li>
-        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Blog</Link></li>
-        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href={'/'}>Service</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href='/'>Home</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href='#service'>Service</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href='#about'>About</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href='#contact'>Contact</Link></li>
+        <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#55e6a5] after:w-full after:scale-x-0 after:hover:scale-x-75 after:transition after:duration-300 after:origin-center"><Link href='#blog'>Blog</Link></li>
+
     </>
 
 

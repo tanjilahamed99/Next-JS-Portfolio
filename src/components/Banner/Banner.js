@@ -6,13 +6,13 @@ import Image from 'next/image';
 
 const Banner = () => {
     return (
-        <div className='text-white py-20 bg-[#000000] flex '>
+        <div className='text-white py-20 bg-[#000000] flex flex-col-reverse md:flex-row gap-10 px-5 lg:px-0'>
             <div className='md:w-1/2'>
                 <div className='mb-8'>
-                    <h2 className='text-[2.5em] font-bold '>Hi,I am Tanjil!</h2>
+                    <h2 className='lg:text-[2.5em] text-2xl font-bold mb-2'>Hi,I am Tanjil!</h2>
                     <TextAnimation></TextAnimation>
                 </div>
-                <p className='mb-8 text-lg text-[#a2a2a2]'>
+                <p className='mb-8 md:text-lg text-sm text-[#a2a2a2]'>
                     I am skilled frontend developer, specializes in HTML, CSS, Tailwind, JavaScript, React, Next.js, Firebase, Node.js, MongoDB, Express, and JSON Web Token. Proficient in crafting visually appealing interfaces, he excels in full-stack development, demonstrating commitment and expertise in diverse technologies.
                 </p>
                 <Btn text={"Download CV"}></Btn>

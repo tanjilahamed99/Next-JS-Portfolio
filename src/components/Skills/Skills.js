@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='text-white my-40 bg-[#09101a] py-20 px-10'>
+        <div id='skill' className='text-white my-40 bg-[#09101a] py-20 px-10'>
             <h2 className='text-[#55e6a5] text-xl font-bold text-center'>EDUCATION & SKILL</h2>
             <p className='text-3xl font-bold leading-10 mt-5 text-center'>
                 Showcasing My talent <br />
