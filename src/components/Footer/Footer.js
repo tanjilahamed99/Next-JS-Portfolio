@@ -5,8 +5,8 @@ import { MdOutlineEmail } from "react-icons/md";
 const Footer = () => {
     return (
         <footer className="text-white">
-            <div className="flex justify-evenly">
-                <div className="flex gap-5">
+            <div className="flex justify-evenly flex-col md:flex-row gap-10 px-2">
+                <div className="flex gap-5 md:gap-2">
                     <FaLocationDot className="bg-[#55e6a5] text-black text-6xl font-bold p-3 rounded-full"></FaLocationDot>
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Location</h2>
@@ -16,7 +16,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex gap-5">
+                <div className="flex gap-5 md:gap-2">
                     <FaPhone className="bg-[#55e6a5] text-black text-6xl font-bold p-3 rounded-full"></FaPhone>
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Lets talk us</h2>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </h2>
                     </div>
                 </div>
-                <div className="flex gap-5">
+                <div className="flex gap-5 md:gap-2">
                     <MdOutlineEmail className="bg-[#55e6a5] text-black text-6xl font-bold p-3 rounded-full"></MdOutlineEmail>
                     <div>
                         <h2 className="text-2xl font-bold mb-3">Send us email</h2>

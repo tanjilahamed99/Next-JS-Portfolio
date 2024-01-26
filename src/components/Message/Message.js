@@ -7,15 +7,15 @@ import Form from './Form';
 
 const Message = () => {
     return (
-        <div id='contact' className='text-white flex items-center gap-5'>
+        <div id='contact' className='text-white flex flex-col lg:flex-row items-center gap-5 pl-5'>
             <div className='space-y-10 lg:w-1/2'>
-                <h2 className='text-6xl'>
-                    Design <span className='text-5xl'>and <br /> Innovation</span>
+                <h2 className='lg:text-6xl text-3xl font-bold'>
+                    Design <span className=' text-3xl lg:text-5xl '>and <br /> Innovation</span>
                 </h2>
                 <p className='text-[#a2a2a2]'>
                     Tanjil Ahmed is a skilled and dedicated frontend developer with expertise in HTML, CSS, Tailwind, JavaScript, React, and Next.js. His proficiency extends to backend technologies like Node.js, MongoDB, and Express, showcasing a well-rounded skill set in full-stack development.
                 </p>
-                <div className='flex items-center gap-5'>
+                <div className='flex flex-col md:flex-row justify-center items-center gap-5'>
                     <div
                         data-aos="fade-right"
                         data-aos-duration="2000"
