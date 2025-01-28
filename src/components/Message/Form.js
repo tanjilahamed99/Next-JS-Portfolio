@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <form data-aos="fade-up" data-aos-duration="2500" className="space-y-10">
+    <form className="space-y-10">
       <div>
         <input
           type="text"

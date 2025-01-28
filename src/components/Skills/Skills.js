@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skill" className="text-white my-40 bg-[#09101a] py-20 px-10">
+    <div id="skill" className="text-white md:my-40 bg-[#09101a] py-20 lg:px-10 px-2">
       <h2 className="text-[#55e6a5] text-xl font-bold text-center">
         EDUCATION & SKILL
       </h2>
@@ -69,8 +69,6 @@ const Skills = () => {
         </div>
       </div>
       <div
-        data-aos="fade-down"
-        data-aos-duration="2000"
         className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-10 my-10 "
       >
         <div className="">
