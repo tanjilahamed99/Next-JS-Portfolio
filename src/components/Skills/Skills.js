@@ -194,6 +194,16 @@ const Skills = () => {
           />
         </div>
         <div>
+          <p className="mb-2 font-bold">TypeScript</p>
+          <input
+            type="range"
+            min={0}
+            max="100"
+            value="30"
+            className="range range-success"
+          />
+        </div>
+        <div>
           <p className="mb-2 font-bold">Crypto Related website</p>
           <input
             type="range"
