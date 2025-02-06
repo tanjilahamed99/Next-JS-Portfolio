@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Header Section */}
       <header className="w-full text-center">
         <h1 className="text-5xl font-extrabold text-[#55e6a5] mb-4 animate-pulse">Get in Touch</h1>
-        <p className="text-gray-700 text-lg">I'd love to hear from you! Feel free to drop a message.</p>
+        <p className="text-gray-700 text-lg">Id love to hear from you! Feel free to drop a message.</p>
       </header>
 
       {/* Contact Information Section */}

@@ -17,8 +17,7 @@ const Projects = () => {
                 <div className='relative'>
                     <Image className='lg:h-[350px]' src={luxeNext} alt='Projects logo'></Image>
                     <div
-                        data-aos="fade-right"
-                        data-aos-duration="3000"
+                      
                         className='bg-black bg-opacity-80 absolute w-full bottom-0'>
                         <div
                             className='py-5 pl-5'>
@@ -40,8 +39,7 @@ const Projects = () => {
                 <div className='relative'>
                     <Image className='lg:h-[350px]' src={nexTech} alt='Projects logo'></Image>
                     <div
-                        data-aos="fade-left"
-                        data-aos-duration="3000"
+                        
                         className='bg-black bg-opacity-80 absolute w-full bottom-0'>
                         <div
                             className='py-5 pl-5'>
@@ -63,8 +61,7 @@ const Projects = () => {
                 <div className='relative'>
                     <Image className='lg:h-[350px]' src={crypto} alt='Projects logo'></Image>
                     <div
-                        data-aos="fade-right"
-                        data-aos-duration="3000"
+                      
                         className='bg-black bg-opacity-80 absolute w-full bottom-0'>
                         <div
                             className='py-5 pl-5'>
