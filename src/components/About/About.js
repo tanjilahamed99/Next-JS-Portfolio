@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Btn from "../Shared/Btn";
+import img from "../../../public/profile.jpg";
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
         <div className="border-t-8 border-r-8 border-[#55e6a5] w-fit mx-auto">
           <Image
             className=" mx-auto bg-[#09101a]"
-            src={"https://i.ibb.co/30mm9CK/portfolio.png"}
+            src={img}
             alt="banner image "
             width={400}
             height={400}
