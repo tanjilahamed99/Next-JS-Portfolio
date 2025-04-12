@@ -14,7 +14,7 @@ const TestimonialSlider = () => {
     })
 
     return (
-        <div ref={sliderRef} className="keen-slider gap-5">
+        <div ref={sliderRef} className="keen-slider gap-5 container mx-auto">
             <div className="keen-slider__slide number-slide1 p-10 border-2 relative border-[#a2a2a2] ">
                 <div className="flex gap-2 text-yellow-500 text-2xl">
                     <FaStar></FaStar>

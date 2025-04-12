@@ -1,5 +1,6 @@
 import About from "@/components/About/About";
 import Banner from "@/components/Banner/Banner";
+import Experience from "@/components/Experience/Experience";
 import Footer from "@/components/Footer/Footer";
 import MyService from "@/components/MYService/MyService";
 import MarqueeDesign from "@/components/MarqueeDesign/MarqueeDesign";
@@ -16,6 +17,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Banner />
+      <Experience />
       <MyService />
       <About />
       <Message />

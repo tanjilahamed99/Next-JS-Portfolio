@@ -7,7 +7,7 @@ const Testimonial = () => {
             <h1 className='text-3xl font-bold leading-10 mt-5 text-center'>
                 My Testimonial
             </h1>
-            <div className='my-20 '>
+            <div className='my-10 '>
                 <TestimonialSlider />
             </div>
 

@@ -9,7 +9,7 @@ const NewsLatter = () => {
                 </h2>
                 <div className="mt-10 lg:w-1/2 w-[95%] mx-auto relative">
                     <input className="border-2 border-[#55e6a5] py-5 px-3 bg-black rounded-md w-full" placeholder="Enter Your Email" />
-                    <button className="btn bg-[#55e6a5] border-none rounded-none absolute right-2 top-[10px]">Notify Now</button>
+                    <button className="btn text-black bg-[#55e6a5] hover:bg-[#36c987]  border-none rounded-none absolute right-2 top-[10px]">Notify Now</button>
                 </div>
             </div>
         </div>
