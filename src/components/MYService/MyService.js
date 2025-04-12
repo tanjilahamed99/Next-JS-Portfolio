@@ -15,11 +15,11 @@ const MyService = () => {
           <CgWebsite className="text-7xl text-[#55e6a5] mx-auto"></CgWebsite>
           <h2 className="text-xl font-bold mb-3 mt-5">Frontend Development</h2>
           <p className="text-[#a2a2a2]">
-            I am a seasoned frontend developer proficient in HTML, CSS,
-            Tailwind, JavaScript, React, and Next.js. With a strong grasp of
-            Firebase for real-time applications and a solid foundation in
-            backend technologies like Node.js, MongoDB, and Express, I am excels
-            in creating dynamic and visually engaging user interfaces
+            I’m a skilled frontend developer with deep expertise in HTML, CSS,
+            Tailwind, JavaScript, React, and Next.js. I specialize in building
+            responsive, high-performance interfaces and bring designs to life
+            with precision and creativity, ensuring seamless user experiences
+            across all devices.
           </p>
         </div>
         <div className="text-white text-center  p-4 shadow shadow-[#a2a2a2]">
@@ -28,22 +28,22 @@ const MyService = () => {
             Full-Stack Development
           </h2>
           <p className="text-[#a2a2a2]">
-            I am a seasoned Full-Stack developer proficient in HTML, CSS,
-            Tailwind, JavaScript, React, and Next.js. With a strong grasp of
-            Firebase for real-time applications and a solid foundation in
-            backend technologies like Node.js, MongoDB, and Express, I am excels
-            in creating dynamic and visually engaging user interfaces
+            I’m a versatile full stack developer experienced in crafting
+            scalable web applications using React, Next.js, Node.js, Express,
+            and MongoDB. With a solid frontend and backend foundation, I
+            seamlessly integrate APIs, manage databases, and deliver
+            full-featured, optimized solutions from concept to deployment.
           </p>
         </div>
         <div className="text-white text-center  p-4 shadow shadow-[#a2a2a2]">
           <CgWebsite className="text-7xl text-[#55e6a5] mx-auto"></CgWebsite>
           <h2 className="text-xl font-bold mb-3 mt-5">Backend Development</h2>
           <p className="text-[#a2a2a2]">
-            I am a seasoned Backend developer proficient in HTML, CSS, Tailwind,
-            JavaScript, React, and Next.js. With a strong grasp of Firebase for
-            real-time applications and a solid foundation in backend
-            technologies like Node.js, MongoDB, and Express, I am excels in
-            creating dynamic and visually engaging user interfaces
+            I’m a dedicated backend developer focused on building robust and
+            efficient server-side solutions using Node.js, Express, and MongoDB.
+            With experience in authentication, API development, and Firebase
+            integration, I ensure secure, scalable, and fast-performing web
+            applications for modern use cases.
           </p>
         </div>
       </div>
