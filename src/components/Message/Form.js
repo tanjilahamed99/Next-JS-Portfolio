@@ -22,10 +22,10 @@ const Form = () => {
           placeholder="Bio"
         ></textarea>
       </div>
-      <button className="btn border border-none bg-[#55e6a5] rounded-none py-5 px-10">
+      <button className="btn border border-none bg-[#55e6a5] hover:bg-[#36c987]  text-black rounded-none py-5 px-10">
         Submit
       </button>
-    </form>
+    </form> 
   );
 };
 

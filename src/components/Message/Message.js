@@ -28,16 +28,16 @@ const Message = () => {
           <div className="p-10 bg-[#09101a] text-4xl font-bold w-[300px]">
             <CgWebsite className="mx-auto text-[70px] text-[#55e6a5]"></CgWebsite>
             <div className=" flex items-center my-3 justify-center">
-              <Count start={4} end={100}></Count>+
+              <Count start={4} end={40}></Count>+
             </div>
-            <h2 className="text-xl">Complete Project</h2>
+            <h2 className="text-xl text-center">Complete Project</h2>
           </div>
           <div className="p-10 bg-[#09101a] text-4xl font-bold w-[300px]">
             <GiVibratingShield className="mx-auto text-[70px] text-[#55e6a5]"></GiVibratingShield>
             <div className=" flex items-center my-3 justify-center">
-              <Count start={4} end={300}></Count>+
+              <Count start={0} end={10}></Count>+
             </div>
-            <h2 className="text-xl">Project Review</h2>
+            <h2 className="text-xl text-center">Project Review</h2>
           </div>
         </div>
       </div>
