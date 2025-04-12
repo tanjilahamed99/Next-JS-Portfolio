@@ -2,7 +2,7 @@ import { CgWebsite } from "react-icons/cg";
 
 const MyService = () => {
   return (
-    <div id="service" className=" md:my-20">
+    <div id="service" className=" md:my-20 container mx-auto">
       <h2 className="text-xl font-bold text-[#55e6a5] text-center">
         My Service
       </h2>

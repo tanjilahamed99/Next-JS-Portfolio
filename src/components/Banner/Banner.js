@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Banner = () => {
     return (
-        <div className='text-white py-20 bg-[#000000] flex flex-col-reverse md:flex-row gap-10 px-2 lg:px-0'>
+        <div className='text-white py-20 container mx-auto bg-[#000000] flex flex-col-reverse md:flex-row gap-10 px-2 lg:px-0'>
             <div className='md:w-1/2'>
                 <div className='mb-8'>
                     <h2 className='lg:text-[2.5em] text-2xl font-bold mb-2'>Hi,I am Tanjil!</h2>

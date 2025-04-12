@@ -24,7 +24,7 @@ export default function Home() {
       <Testimonial />
       <MarqueeDesign />
       <NewsLatter />
-      <Footer></Footer>
+      <Footer/>
     </div>
   )
 }

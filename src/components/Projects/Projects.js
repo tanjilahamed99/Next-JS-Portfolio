@@ -7,7 +7,7 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div id='blog' className='text-white pl-5'>
+        <div id='blog' className='text-white pl-5 container mx-auto'>
             <h2 className='text-[#55e6a5] text-xl font-bold'>My Recent Projects</h2>
             <h1 className='text-2xl lg:text-3xl font-bold leading-10 mt-5'>
                 Elevate My brand to new <br />

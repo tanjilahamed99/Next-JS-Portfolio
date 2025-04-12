@@ -8,7 +8,7 @@ const Message = () => {
   return (
     <div
       id="contact"
-      className="text-white flex flex-col lg:flex-row items-center gap-5 px-2"
+      className="text-white flex flex-col lg:flex-row items-center gap-5 px-2 container mx-auto" 
     >
       <div className="space-y-10 lg:w-1/2">
         <h2 className="lg:text-6xl text-3xl font-bold">
